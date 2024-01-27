@@ -1,23 +1,23 @@
 ## Exercise 1
 ### Hello World!
 ```
-console.log(‘Hello’);
+console.log('Hello');
 ```
 ### Using vars with Hello World!
 ```
 let greeting_container;
 // assign greeting to variable
-greeting_container = “Hello”;
+greeting_container = "Hello";
 console.log(greeting_container);
 ```
 
 ### Generate an Alert
 ```
-alert(‘Greetings ’ + greeting_container);
+alert('Greetings ' + greeting_container);
 ```
 ### Update the Document
 ```
-document.write('<p>’ + greeting_container + ’</p>');
+document.write('<p>' + greeting_container + '</p>');
 ```
 
 ## Exercise 2

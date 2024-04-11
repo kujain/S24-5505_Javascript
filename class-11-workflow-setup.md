@@ -1,6 +1,6 @@
-**For steps 1 - 8 start from this starting boilerplate: [empty boilerplate](https://github.com/kujain/S23-5505_Javascript/blob/main/class11_boilerplate_starter.zip)**
+**For steps 1 - 8 start from this starting boilerplate: [empty boilerplate](https://github.com/kujain/S24-5505_Javascript/blob/main/class11_boilerplate_starter.zip)**
 
-**For step 9, use this boilerplate: [es6 modules boilerplate](https://github.com/kujain/S23-5505_Javascript/blob/main/class11_boilerplate_es6_starter.zip)**
+**For step 9, use this boilerplate: [es6 modules boilerplate](https://github.com/kujain/S24-5505_Javascript/blob/main/class11_boilerplate_es6_starter.zip)**
 
 # 0. SETUP
 XCODE (for OSX):
@@ -37,7 +37,7 @@ brew install git
 
 # 1. Start:
 
-Note, if your node version is v19 or later (current is v20) (check by typing `node -v` and see the resulting version), please downgrade to 20 LTS. V21 is available but it's safest to work with the latest LTS version most of the time. 
+**Note:** if your node version is v19 or later (current is v20) (check by typing `node -v` and see the resulting version), please downgrade to 20 LTS. V21 is available but it's safest to work with the latest LTS version most of the time. 
 ```
 node -v
 ```
@@ -91,7 +91,7 @@ This will install the above 4 packages and add it to package.json file.
 # 3. Update the empty gulpfile.js
 
 Take code and add into  the empty gulpfile.js: 
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-1.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-1.js
 
 This sets up the first task: to take all the SCSS files and compile into a single style.css file. Type:
 ```
@@ -111,7 +111,7 @@ npm install --save-dev browser-sync
 ```
 
 Update the gulpfile.js with the code from
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-2.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-2.js
 
 Then run:
 ```
@@ -133,7 +133,7 @@ npm install --save-dev jshint gulp-rename gulp-concat gulp-jshint
 ```
 
 Update the gulpfile.js with the code from:
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-3.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-3.js
 
 Then run:
 ```
@@ -158,7 +158,7 @@ npm install --save jquery
 ```
 
 Update the gulpfile.js with the code from
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-4.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-4.js
 
 Then run:
 ```
@@ -176,7 +176,7 @@ npm install --save-dev gulp-terser
 ```
 
 Update the gulpfile.js with the code from
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-5.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-5.js
 
 Then run:
 ```
@@ -191,7 +191,7 @@ npm install --save-dev gulp-babel @babel/core @babel/preset-env
 ```
 
 Update the gulpfile.js with the code from
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-6.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-6.js
 
 Then run:
 ```
@@ -212,10 +212,10 @@ npm install
 ```
 
 Update the gulpfile.js with the code from
-https://github.com/kujain/S23-5505_Javascript/blob/main/gulpfile-7.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/gulpfile-7.js
 
 Since this requires webpack, an additional webpack config file is required for it to handle the  bundling process.   Create a  webpack.config.js file and update its content from:
-https://github.com/kujain/S23-5505_Javascript/blob/main/webpack.config.js
+https://github.com/kujain/S24-5505_Javascript/blob/main/webpack.config.js
 
 You also need a `.babelrc` file in the folder, but that's already been provided in this boilerplate for you.
 

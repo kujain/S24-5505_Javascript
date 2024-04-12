@@ -76,7 +76,7 @@ Use defaults for most. This will create a package.json file and prepare for the 
 Install v4 of gulp locally:
 
 ```
-npm install --save-dev gulp
+npm install --save-dev gulp@4
 ```
 
 Now install the starting packages:
